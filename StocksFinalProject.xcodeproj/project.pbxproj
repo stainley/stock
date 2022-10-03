@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD3956E228E9C16C00124469 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3956E128E9C16C00124469 /* Report.swift */; };
+		AD39A11C28E7BC18009321F6 /* StockServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39A11B28E7BC18009321F6 /* StockServices.swift */; };
+		AD39A11E28E7C06A009321F6 /* StringFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39A11D28E7C06A009321F6 /* StringFormatter.swift */; };
 		AD6D735928E5C5F500BAD811 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D735828E5C5F500BAD811 /* main.swift */; };
+		AD6D736428E5C6D500BAD811 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D735F28E5C6D500BAD811 /* Stock.swift */; };
+		AD6D736528E5C6D500BAD811 /* StockHolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D736028E5C6D500BAD811 /* StockHolding.swift */; };
+		AD6D736628E5C6D500BAD811 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D736128E5C6D500BAD811 /* Currency.swift */; };
+		AD6D736728E5C6D500BAD811 /* ForeignStockHolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D736228E5C6D500BAD811 /* ForeignStockHolding.swift */; };
+		AD6D736828E5C6D500BAD811 /* StockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D736328E5C6D500BAD811 /* StockType.swift */; };
+		AD6D736A28E5D10A00BAD811 /* ReportJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D736928E5D10A00BAD811 /* ReportJSON.swift */; };
+		AD6D737128E5D9EA00BAD811 /* StockHoldingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D737028E5D9EA00BAD811 /* StockHoldingProtocol.swift */; };
+		AD6D737328E5DC1700BAD811 /* MenuStockHolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6D737228E5DC1700BAD811 /* MenuStockHolding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +34,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD3956E128E9C16C00124469 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		AD39A11B28E7BC18009321F6 /* StockServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockServices.swift; sourceTree = "<group>"; };
+		AD39A11D28E7C06A009321F6 /* StringFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringFormatter.swift; sourceTree = "<group>"; };
 		AD6D735528E5C5F500BAD811 /* StocksFinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StocksFinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6D735828E5C5F500BAD811 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AD6D735F28E5C6D500BAD811 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		AD6D736028E5C6D500BAD811 /* StockHolding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockHolding.swift; sourceTree = "<group>"; };
+		AD6D736128E5C6D500BAD811 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		AD6D736228E5C6D500BAD811 /* ForeignStockHolding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignStockHolding.swift; sourceTree = "<group>"; };
+		AD6D736328E5C6D500BAD811 /* StockType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockType.swift; sourceTree = "<group>"; };
+		AD6D736928E5D10A00BAD811 /* ReportJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportJSON.swift; sourceTree = "<group>"; };
+		AD6D737028E5D9EA00BAD811 /* StockHoldingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockHoldingProtocol.swift; sourceTree = "<group>"; };
+		AD6D737228E5DC1700BAD811 /* MenuStockHolding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStockHolding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD39A11928E7BB9D009321F6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D736228E5C6D500BAD811 /* ForeignStockHolding.swift */,
+				AD6D736028E5C6D500BAD811 /* StockHolding.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		AD39A11A28E7BBCA009321F6 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				AD39A11B28E7BC18009321F6 /* StockServices.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 		AD6D734C28E5C5F500BAD811 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +96,59 @@
 		AD6D735728E5C5F500BAD811 /* StocksFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				AD39A11A28E7BBCA009321F6 /* services */,
+				AD39A11928E7BB9D009321F6 /* model */,
+				AD6D736F28E5D9B500BAD811 /* protocol */,
+				AD6D736E28E5D91200BAD811 /* util */,
+				AD6D736D28E5D8FE00BAD811 /* data */,
+				AD6D736C28E5D8E800BAD811 /* menu */,
+				AD6D736B28E5D8AE00BAD811 /* extensions */,
 				AD6D735828E5C5F500BAD811 /* main.swift */,
 			);
 			path = StocksFinalProject;
+			sourceTree = "<group>";
+		};
+		AD6D736B28E5D8AE00BAD811 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D736928E5D10A00BAD811 /* ReportJSON.swift */,
+				AD3956E128E9C16C00124469 /* Report.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		AD6D736C28E5D8E800BAD811 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D737228E5DC1700BAD811 /* MenuStockHolding.swift */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		AD6D736D28E5D8FE00BAD811 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D735F28E5C6D500BAD811 /* Stock.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		AD6D736E28E5D91200BAD811 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D736128E5C6D500BAD811 /* Currency.swift */,
+				AD6D736328E5C6D500BAD811 /* StockType.swift */,
+				AD39A11D28E7C06A009321F6 /* StringFormatter.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		AD6D736F28E5D9B500BAD811 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D737028E5D9EA00BAD811 /* StockHoldingProtocol.swift */,
+			);
+			path = protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6D736628E5C6D500BAD811 /* Currency.swift in Sources */,
+				AD6D736428E5C6D500BAD811 /* Stock.swift in Sources */,
+				AD6D737328E5DC1700BAD811 /* MenuStockHolding.swift in Sources */,
+				AD6D736A28E5D10A00BAD811 /* ReportJSON.swift in Sources */,
+				AD6D736528E5C6D500BAD811 /* StockHolding.swift in Sources */,
+				AD6D737128E5D9EA00BAD811 /* StockHoldingProtocol.swift in Sources */,
+				AD6D736728E5C6D500BAD811 /* ForeignStockHolding.swift in Sources */,
+				AD6D736828E5C6D500BAD811 /* StockType.swift in Sources */,
+				AD39A11C28E7BC18009321F6 /* StockServices.swift in Sources */,
+				AD39A11E28E7C06A009321F6 /* StringFormatter.swift in Sources */,
 				AD6D735928E5C5F500BAD811 /* main.swift in Sources */,
+				AD3956E228E9C16C00124469 /* Report.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

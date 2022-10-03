@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A5029371-F069-4CE8-A24A-7576707A1E6D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC4DCDCB-39D5-47EB-81EB-7839134140F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StocksFinalProject/menu/MenuStockHolding.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "menuAddStock()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DF454BB-56FF-409A-BB63-0FD915434D58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StocksFinalProject/services/StockServices.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "sortedByLowestValue()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2DF454BB-56FF-409A-BB63-0FD915434D58 - 90b04c1ad66f0f5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StocksFinalProject.StockServices.sortedByLowestValue() -&gt; Swift.Array&lt;StocksFinalProject.StockHolding&gt;"
+                  moduleName = "StocksFinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/slebron/Documents/Swift/StocksFinalProject/StocksFinalProject/services/StockServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "2DF454BB-56FF-409A-BB63-0FD915434D58 - fa707b6109f7bc09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (StocksFinalProject.StockHolding, StocksFinalProject.StockHolding) -&gt; Swift.Bool in StocksFinalProject.StockServices.sortedByLowestValue() -&gt; Swift.Array&lt;StocksFinalProject.StockHolding&gt;"
+                  moduleName = "StocksFinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/slebron/Documents/Swift/StocksFinalProject/StocksFinalProject/services/StockServices.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
