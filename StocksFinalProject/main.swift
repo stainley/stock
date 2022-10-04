@@ -12,14 +12,14 @@ fileprivate class Main {
     // Task 1
     // Populate ten instances of StockHolding. Display all stocks sorted by company name in alphabetical order.
     func printTenStockHolding() {
-        let stockService = StockServices()
-        
-        for stock in stockService.sortedByCompanyName() {
+            
+        for stock in Stock().populateTenStocks().sorted(by: {
+            $0.getCompanyName() < $1.getCompanyName() }) {
+            
             print(stock.printInformation(stockHolding: stock))
         }
     }
 
-    //print(printTenStockHolding())
     // Task 2
     func printTenAndForeignStock() {
         let stockService = StockServices()
