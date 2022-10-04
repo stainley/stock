@@ -16,9 +16,11 @@ class MenuStockHolding {
         self.stringFormatter = StringFormatter()
     }
     
+  
     ///
     /// Display the option menu
     func menu() {
+
         print(String(repeating: "*", count: 100))
         print("1-) Display stock information with the lowest value");
         print("2-) Display stock with the highest value");
